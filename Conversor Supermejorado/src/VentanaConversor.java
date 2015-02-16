@@ -102,20 +102,20 @@ public class VentanaConversor extends JFrame {
 		comboBox.addItem(monedas[1]);
 		comboBox.addItem(monedas[2]);
 		
-		// Selección de items del ComboBox 
+		// Selección de items del ComboBox
 		comboBox.addItemListener(new ItemListener() {
 		public void itemStateChanged(ItemEvent arg0) {
-			switch ((String)comboBox.getSelectedItem()){
-			case "Libras":
-				txtControl.setText("Ha seleccionado la moneda de UK");
-				break;
-			case "Dolares":
-				txtControl.setText("Ha seleccionado la moneda de EEUU");
-				break;
-			case "Yen":
-				txtControl.setText("Ha seleccionado la moneda de Japón");
-				break;
-			}
+				switch ((String)comboBox.getSelectedItem()){
+				case "Libras":
+					txtControl.setText("Ha seleccionado la moneda de UK");
+					break;
+				case "Dolares":
+					txtControl.setText("Ha seleccionado la moneda de EEUU");
+					break;
+				case "Yen":
+					txtControl.setText("Ha seleccionado la moneda de Japón");
+					break;
+				}
 		}
 		});
 				
