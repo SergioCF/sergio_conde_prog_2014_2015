@@ -62,7 +62,7 @@ public class VentanaConversor extends JFrame {
 		Ventana.add(ValorDolares);
 		ValorDolares.setColumns(10);
 		
-		//Zona de control
+		// Zona de control
 				JLabel EtiquetaControl = new JLabel("Mesaje de control");
 				EtiquetaControl.setFont(new Font("Tahoma", Font.BOLD, 11));
 				EtiquetaControl.setBounds(27, 123, 122, 14);

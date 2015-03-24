@@ -33,7 +33,7 @@ public class VentanaConversor extends JFrame {
 	public VentanaConversor(float valores[]) {
 		setTitle("Conversor de Dolares");
 		setResizable(false);
-		
+
 		// Definimos la ventana
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(700,200, 388, 254);
