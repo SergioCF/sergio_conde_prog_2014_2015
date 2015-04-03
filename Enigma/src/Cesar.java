@@ -4,7 +4,7 @@ public class Cesar {
 	private String abecedario="abcdefghijklmnopqrstuvwxyz";
 
 	public Cesar() {
-		
+	
 	}
 	
 	// Método para devolver abecedario y poder utilizarlo en otra clase

@@ -120,7 +120,7 @@ public class ConversorMonedas extends JFrame {
 		
 		}
 		});
-				
+		
 		// Botón de conversión
 		JButton BotonConvertir = new JButton("Convertir");
 		BotonConvertir.setBounds(144, 112, 91, 23);

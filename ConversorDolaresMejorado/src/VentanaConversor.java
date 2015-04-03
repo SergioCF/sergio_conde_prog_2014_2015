@@ -25,7 +25,7 @@ public class VentanaConversor extends JFrame {
 		setTitle("Conversor de Dolares");
 		setResizable(false);
 		
-		// Definimos la ventana
+		//Definimos la ventana
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(700,200, 388, 213);
 		Ventana = new JPanel();
@@ -33,13 +33,13 @@ public class VentanaConversor extends JFrame {
 		setContentPane(Ventana);
 		Ventana.setLayout(null);
 		
-		// Título
+		//Título
 		JLabel lblNewLabel = new JLabel("Introducir un valor en Euros entre 0 y 500 \u20AC");
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 11));
 		lblNewLabel.setBounds(63, 22, 260, 14);
 		Ventana.add(lblNewLabel);
 		
-		// Euros
+		//Euros
 		JLabel EtiquetaEuros = new JLabel("Euros");
 		EtiquetaEuros.setFont(EtiquetaEuros.getFont().deriveFont(EtiquetaEuros.getFont().getStyle() | Font.BOLD));
 		EtiquetaEuros.setBounds(27, 58, 46, 14);
@@ -50,7 +50,7 @@ public class VentanaConversor extends JFrame {
 		Ventana.add(ValorEuros);
 		ValorEuros.setColumns(10);
 		
-		// Dolares
+		//Dolares
 		JLabel EtiquetaDolares = new JLabel("Dolares");
 		EtiquetaDolares.setFont(EtiquetaDolares.getFont().deriveFont(EtiquetaDolares.getFont().getStyle() | Font.BOLD));
 		EtiquetaDolares.setBounds(267, 58, 46, 14);
@@ -62,7 +62,7 @@ public class VentanaConversor extends JFrame {
 		Ventana.add(ValorDolares);
 		ValorDolares.setColumns(10);
 		
-		// Zona de control
+		//Zona de control
 				JLabel EtiquetaControl = new JLabel("Mesaje de control");
 				EtiquetaControl.setFont(new Font("Tahoma", Font.BOLD, 11));
 				EtiquetaControl.setBounds(27, 123, 122, 14);
@@ -77,7 +77,7 @@ public class VentanaConversor extends JFrame {
 				Ventana.add(txtControl);
 				txtControl.setColumns(10);
 				
-		// Boton de conversión
+		//Boton de conversión
 		JButton BotonConvertir = new JButton("Convertir");
 		BotonConvertir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -102,4 +102,3 @@ public class VentanaConversor extends JFrame {
 		Ventana.add(BotonConvertir);		
 	}
 }
-
